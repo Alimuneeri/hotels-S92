@@ -1,0 +1,17 @@
+# _data/nearby.yml
+# This file stores the data for the "What's Nearby" section on the location page.
+
+- name: "City Center"
+  distance: "0 kilometers"
+
+- name: "Main Shopping District"
+  distance: "2 miles"
+
+- name: "The Grand Museum"
+  distance: "2.50 miles"
+
+- name: "Historic Old Town"
+  distance: "2.50 miles"
+
+- name: "City Convention Center"
+  distance: "4 miles"

@@ -1,0 +1,27 @@
+# _data/amenities.yml
+# This file stores the data for the amenities section on the homepage.
+# You can find icon names on fontawesome.com (e.g., "fa-wifi")
+
+- name: "Free High-Speed Wi-Fi"
+  icon: "fas fa-wifi"
+  description: "Stay connected with complimentary internet access throughout the hotel."
+
+- name: "24/7 Fitness Center"
+  icon: "fas fa-dumbbell"
+  description: "A state-of-the-art gym, available whenever you need it."
+
+- name: "On-Site Restaurant"
+  icon: "fas fa-utensils"
+  description: "Enjoy delicious, locally-sourced cuisine at our signature restaurant."
+
+- name: "Swimming Pool"
+  icon: "fas fa-swimmer"
+  description: "Relax and unwind by our stunning indoor swimming pool."
+
+- name: "Business Center"
+  icon: "fas fa-briefcase"
+  description: "Fully-equipped facilities to keep you productive during your stay."
+
+- name: "Concierge Service"
+  icon: "fas fa-concierge-bell"
+  description: "Let our expert team help you with reservations, tickets, and more."

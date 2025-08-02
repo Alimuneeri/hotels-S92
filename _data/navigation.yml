@@ -1,0 +1,20 @@
+# _data/navigation.yml
+main:
+  - title: "Rooms"
+    url: /#rooms
+  - title: "Offers"
+    url: /#offers
+  - title: "Amenities"
+    url: /#amenities
+  - title: "Gallery"
+    url: /#gallery
+  - title: "Famous Places"
+    url: /#famous-places
+  - title: "Blog"
+    url: /#blog
+  - title: "Videos"
+    url: /#videos
+  - title: "Location"
+    url: /#location
+  - title: "Contact"
+    url: /#contact

@@ -1,0 +1,9 @@
+---
+# This front matter is REQUIRED for Jekyll to process SASS.
+---
+
+// This line tells SASS to find and include the contents of _sass/_custom.scss
+@import "custom";
+
+// We can leave the body style here for testing.
+// After you confirm the red background appears, you can delete this part.

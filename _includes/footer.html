@@ -1,0 +1,66 @@
+<!-- _includes/footer.html -->
+<footer class="footer-section bg-dark text-white">
+  <div class="container">
+    <div class="footer-content pt-5 pb-5">
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 mb-50">
+          <div class="footer-widget">
+            <div class="footer-logo">
+              <a href="/" class="h3 text-white text-decoration-none">{{ site.title }}</a>
+            </div>
+            <div class="footer-text">
+              <p>{{ site.description }}</p>
+            </div>
+            <div class="footer-social-icon">
+              <span>Follow us</span>
+              <a href="{{ site.social.twitter }}" class="twitter-bg"><i class="fab fa-twitter"></i></a>
+              <a href="{{ site.social.facebook }}" class="facebook-bg"><i class="fab fa-facebook-f"></i></a>
+              <a href="{{ site.social.instagram }}" class="instagram-bg"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+          <div class="footer-widget">
+            <div class="footer-widget-heading">
+              <h3>Useful Links</h3>
+            </div>
+            <ul>
+              {% for item in site.data.navigation.main %}
+                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+              {% endfor %}
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+          <div class="footer-widget">
+            <div class="footer-widget-heading">
+              <h3>Subscribe</h3>
+            </div>
+            <div class="footer-text mb-25">
+              <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+            </div>
+            <div class="subscribe-form">
+              <form action="#">
+                <input type="email" placeholder="Email Address">
+                <button><i class="fab fa-telegram-plane"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12 col-lg-12 text-center">
+          <div class="copyright-text">
+            <p>Copyright &copy; {{ site.time | date: '%Y' }}, All Right Reserved <a href="/">{{ site.title }}</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,30 @@
+# _config.yml
+title: "The Central Park Hotel"
+email: "reservations@yourhotel.com"
+description: >- # this means to ignore newlines until "baseurl:"
+  Experience luxury and comfort in the heart of the city. The Central Park Hotel
+  offers premium amenities, stunning views, and unparalleled service.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.yourhotel.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Social Media Links
+social:
+  twitter: https://twitter.com/yourhandle
+  facebook: https://facebook.com/yourhandle
+  instagram: https://instagram.com/yourhandle
+
+# Build settings
+theme: null
+plugins:
+  - jekyll-feed
+
+# Collections for Rooms and Offers
+collections:
+  rooms:
+    output: true
+    permalink: /rooms/:name/
+  offers:
+    output: true
+    permalink: /offers/:name/
