@@ -53,7 +53,7 @@ title: Home
 <span class="visually-hidden">Next</span>
 </button>
 </div>
-</div>
+
 
 <!-- Booking Widget -->
 
@@ -83,7 +83,6 @@ title: Home
 </div>
 </div>
 
-<div class="container my-5">
 <!-- 2. AMENITIES SECTION -->
 <section id="amenities" class="text-center my-5 py-5" data-aos="fade-up">
 <h2>Our Amenities</h2>
@@ -351,5 +350,3 @@ title: Home
 </div>
 </div>
 </section>
-
-</div>
